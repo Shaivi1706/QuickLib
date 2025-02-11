@@ -1,0 +1,93 @@
+/* * General Styling  */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+
+/* Header */
+.header {
+  background-color: #5d4037;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+.header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+
+.header nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+
+.header nav a:hover {
+  color: #ffeb3b;
+}
+
+.headerLogin {
+  background-color: #5d4037;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+.headerLogin h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+
+.headerLogin nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+
+.headerLogin nav a:hover {
+  color: #ffeb3b;
+}
+
+/* Footer */
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: auto; /* Ensures footer is pushed to bottom */
+}
+
+
+/* Main Content */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+
+
