@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/QuickLib/static/css/main.83c38203.css",
+    "main.js": "/QuickLib/static/js/main.e3ee03a2.js",
+    "static/js/453.a51aa9f8.chunk.js": "/QuickLib/static/js/453.a51aa9f8.chunk.js",
+    "index.html": "/QuickLib/index.html",
+    "main.83c38203.css.map": "/QuickLib/static/css/main.83c38203.css.map",
+    "main.e3ee03a2.js.map": "/QuickLib/static/js/main.e3ee03a2.js.map",
+    "453.a51aa9f8.chunk.js.map": "/QuickLib/static/js/453.a51aa9f8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.83c38203.css",
+    "static/js/main.e3ee03a2.js"
+  ]
+}
