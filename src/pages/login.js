@@ -1,20 +1,5 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import axios from 'axios';
-
-const handleLogin = async () => {
-  try {
-    const response = await axios.post('http://localhost:5000/login', { username, password });
-    if (response.data.userType === 'admin') {
-      navigate('/admin'); // Redirect to Admin page
-    } else {
-      navigate('/search'); // Redirect to Student search page
-    }
-  } catch (err) {
-    console.error('Login failed ❌', err.message);
-    alert('Invalid credentials');
-  }
-};
 
 const Login = () => {
   const navigate = useNavigate();
